@@ -27,7 +27,7 @@ ul {
     background-color:#31343d;
 }
 
-a {
+header, a {
     text-decoration: none;
     color: inherit;
     border-bottom: 3px solid;
@@ -78,9 +78,23 @@ a {
     margin-top: 20px;
 }
 
-#title {
+#aboutTitle {
     width: 25%;
     height: 200px;
+    border-right: 5px solid;
+    border-color: #33435a;
+}
+
+#workTitle {
+    width: 25%;
+    height: 530px;
+    border-right: 5px solid;
+    border-color: #33435a;
+}
+
+#contactTitle {
+    width: 25%;
+    height: 100px;
     border-right: 5px solid;
     border-color: #33435a;
 }
@@ -99,4 +113,39 @@ a {
     padding-left: 20px;
     color: #33435a;
     font-weight: 100;
+}
+
+.workSegment {
+    margin: 10px;
+    height: 100px;
+    width: 600px;
+    border: 10px solid;
+    border-color:#92cccd;
+}
+
+.workLink {
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+#starwars {
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.workText {
+    position: relative;
+    bottom: 50px;
+    width: 250px;
+    font-size: 25px;
+    color:#31343d;
+    background-color:#92cccd;
+}
+
+.contactLink {
+    background-color:#ededf6;
+    border: none;
 }
